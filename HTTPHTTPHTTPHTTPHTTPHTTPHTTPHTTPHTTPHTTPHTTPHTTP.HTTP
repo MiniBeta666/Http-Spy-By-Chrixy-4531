@@ -6,7 +6,7 @@ local ConsoleLog = Console:Window({
 })
 
 ConsoleLog:Prompt({
-    Title = "Welcome "..game.Players.LocalPlayer.DisplayName.. " To Http Spy v0.12",
+    Title = "Welcome "..game.Players.LocalPlayer.DisplayName.. " To Http Spy v2.3.4a",
     TypesWeHave = {
         "default",
         "success",
@@ -27,7 +27,17 @@ ConsoleLog:Prompt({
     },
     Type = "default"
 })
-
+ConsoleLog:Prompt({
+    Title = "How to Use : \n1.Run A Script\n2.Http Link is copied to your clipboard\n3.Enjoy!"
+    TypesWeHave = {
+        "default",
+        "success",
+        "fail",
+        "warning",
+        "nofitication"
+    },
+    Type = "default"
+})
 if identifyexecutor() == "Krnl" then
 ConsoleLog:Prompt({
     Title = "Support: true ",
