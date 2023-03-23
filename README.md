@@ -1,3 +1,5 @@
+# Its Open Source
+But Give A Credit
 # HTTP SPY
 # Chrixy#4531 - syn.request, Spy Manager Api (C#)
 # BloodBall - Ui Lib
@@ -9,3 +11,4 @@ Apis:
 ## Log Collector (My Api :)
 ## String Controller
 ## Setclipboard (Lua, Made By Synapse Dev!)
+
