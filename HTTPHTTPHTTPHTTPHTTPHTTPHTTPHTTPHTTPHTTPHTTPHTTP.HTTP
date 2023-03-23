@@ -1,6 +1,6 @@
 local Console =  loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/STX"))()
 local ConsoleLog = Console:Window({
-    Title = "Http Spy | v0.12",
+    Title = "Http Spy | Chrixy and MiniBeta666",
     Position = UDim2.new(0.5, 0, 0.5, 0),
     DragSpeed = 12
 })
@@ -66,7 +66,19 @@ ConsoleLog:Prompt({
 })
 elseif identifyexecutor() == "Fluxus" then
 ConsoleLog:Prompt({
-    Title = "Support: Maybe ",
+    Title = "Support: true ",
+    TypesWeHave = {
+        "default",
+        "success",
+        "fail",
+        "warning",
+        "nofitication"
+    },
+    Type = "default"
+})
+elseif identifyexecutor() == "Delta" then
+ConsoleLog:Prompt({
+    Title = "Support: true ",
     TypesWeHave = {
         "default",
         "success",
